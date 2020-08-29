@@ -2,6 +2,8 @@
 Parses CSV files containing banking information - generating Account objects according to two different types (Savings & Checking accounts).
 Program will use an interface to determine the base interest rate for banking accounts.
 
+Account Numbers consist of (11 digits: begin with 1 ( for savings account ) or 2 ( for checking account), last two digits of SSN, unique 5 digit number and random 3 digit number)
+
 Account Methods:
 
 -deposit(), withdraw(), transfer(), showInfo()
